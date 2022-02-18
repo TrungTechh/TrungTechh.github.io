@@ -48,6 +48,7 @@
 	width: 100%;
 	max-width: 480px;
 	border-bottom: 1px solid #ebebeb;
+	z-index: 2;
   }
   
   /* HEADER */
@@ -280,6 +281,7 @@
     top: 50%;
     transform: translateY(-50%);
     right: 60px;
+    z-index: 1;
 }
 .spectrum div, .spectrum div:before, .spectrum div:after {
     width: 9px;
